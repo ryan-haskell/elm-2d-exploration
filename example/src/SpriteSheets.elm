@@ -118,14 +118,14 @@ view model =
         , Node.sprite
             { spriteSheet = spriteSheet
             , animation = "attack_right"
-            , frame = modBy 4 (model.frame // 8)
+            , frame = model.frame // 8
             }
             |> Node.flipX
             |> Node.move (Vector.new 32 96)
         , Node.sprite
             { spriteSheet = spriteSheet
             , animation = "walk_right"
-            , frame = modBy 6 (model.frame // 8)
+            , frame = model.frame // 8
             }
             |> Node.flipX
             |> Node.move (Vector.new 64 96)
