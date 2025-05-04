@@ -1,0 +1,6 @@
+elm-stuff/
+build/
+node_modules/
+.DS_Store
+*.log
+.vite
